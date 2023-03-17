@@ -1,0 +1,89 @@
+.topOfPage {
+  display: flex;
+  font-size: 14px;
+  color: white;
+  background-color: #A00000;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.underTop {
+  display: flex;
+  padding: 10px;
+  font-size: 28px;
+  color: white;
+  background-color: #303030;
+  align-items: center;
+  height: 30px;
+  justify-content: flex-end;
+}
+
+.den-links {
+  color: white;
+  font-size: 50%;
+  font-family: "Myriad pro", arial, sans-serif;
+  margin-left: 20px;
+}
+
+.right {
+  margin-left: auto;
+  color: white;
+  font-size: 50%;
+  font-family: "Myriad pro", arial, sans-serif;
+}
+
+.left {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  position: absolute;
+}
+
+.mainImage {
+  max-width: 100%;
+  height: auto;
+  margin: 3% 0 0 2%;
+}
+
+.sideImage {
+  max-width: 100%;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+aside {
+  width: 20%;
+  float: right;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+section {
+  width: 72%;
+  float: left;
+} 
+
+article {
+  width: 72%;
+  float: left;
+  margin-left: 3%;
+  padding-bottom: 100px;
+} 
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background-color: #404040;
+  height: 80px;
+  color: white;
+}
+
+
